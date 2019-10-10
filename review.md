@@ -184,6 +184,24 @@ str => string
 
 - I/O with Basic files:
 
+ %%writefile myfile.txt
+
+ myfile = open('myfile.txt') # If you want to open files on another location just type the absolute path of the file
+
+ * Methods:
+
+ myfile.read() => returns the txt inside the file.
+ .seek() => finds whatever is passed as argument.
+ .readlines() => will return every line with the break on a list.
+ .close() => after you finish with the file you need to close it
+
+ with open('myfile.txt', mode = 'w') as my_new_file: # assigning to the variable
+  content = my_new_file.read() 
+ # with this you don't need to worry of closing a file.
+
+ mode: w, r, a, w+, r+
+
+
 
 
 
