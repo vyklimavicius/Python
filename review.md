@@ -25,6 +25,11 @@ str => string
  ex: 
  a = 5
 
+ Variables need to be defined. If you just want a placeholder you can assign None to it.
+ Ex:
+
+ a = None
+
 - Strings:
 
  * indexing : 
@@ -147,6 +152,42 @@ str => string
  .items() => return key value pairs in tuples.
 
 - Tuples:
+
+ Are very similar to lists. However they have one key difference- IMMUTABILITY. Once an element is inside a tuple, it can not be REASSIGNED. It keeps the data integrity.
+
+ Tuples use parenthesis: (1,2,3)
+
+ * Methods:
+ .count() => the times the argument is in the tuple.
+ .index() => the index of the argument.
+
+- Sets:
+
+ Are unordered collections of UNIQUE elements(can't be repeated). Meaning there can only be one representative of the same object.
+
+ Ex:
+
+ myset = set()
+
+ myset.add(1)
+ # => {1}  # Is not like a dictionary because it doesn't use the key: value relationship.
+
+ myset.add(2)
+ # => {1,2}
+
+ myset = set('Hello')
+ # => {'H','e','l','l','o'} # In this case 
+
+- Booleans:
+
+ In python you have to type True or False with caps, it won't work otherwise.
+
+- I/O with Basic files:
+
+
+
+
+
 
  
 

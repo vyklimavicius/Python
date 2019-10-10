@@ -60,11 +60,19 @@
 
 #Dictionaries#
 
-new_dict = {'apple': 3, 'pineapple': {'count': 5}}
+# new_dict = {'apple': 3, 'pineapple': {'count': 5}}
 
-a = new_dict.keys()
+# a = new_dict.keys()
 
-print(a[0])
+# print(a[0])
+
+# sets #
+
+a = set('Vytautas')
+b = (1,2,3,1,1,1,1)
+c = None
+print(a, b.count(1), c)
+
 
 
 
